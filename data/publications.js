@@ -120,7 +120,7 @@ window.PUBLICATIONS = [
     authors: ["Nong Minh Hieu", "Antoine Ledent", "Y. Lei", "C. Y. Ku"],  // write out first names if you like
     venue: "AAAI",
     venueFull: "AAAI Conference on Artificial Intelligence (AAAI)",
-    year: 2024,
+    year: 2025,
     type: "conference",
     selected: false,
     note: "",
@@ -130,5 +130,21 @@ window.PUBLICATIONS = [
       { label: "arXiv", url: "https://arxiv.org/abs/2412.12014" },
       { label: "AAAI", url: "https://ojs.aaai.org/index.php/AAAI/article/view/33889" }
     ]
-  }
+  },
+   {
+    title: "Revisiting Over-smoothing and Over-squashing Using Ollivier-Ricci Curvature",
+    authors: ["Khang Nguyen", "Nong Minh Hieu", "Vinh Duc Nguyen", "Nhat Ho", "Stanley Osher", "Tan Minh Nguyen"],
+    venue: "ICML",
+    venueFull: "International Conference on Machine Learning (ICML), PMLR 202",
+    year: 2023,
+    type: "conference",
+    selected: false,
+    note: "",
+    abstract: "",
+    bibtex: "",
+    links: [
+      { label: "arXiv",  url: "https://arxiv.org/abs/2211.15779" },
+      { label: "PMLR",  url: "https://proceedings.mlr.press/v202/nguyen23c" }
+    ]
+  },
 ];
