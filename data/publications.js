@@ -20,6 +20,21 @@
    ================================================================ */
 
 window.PUBLICATIONS = [
+   {
+    title: "Generalization Bounds for Neural Networks with Sparse Connectivity",
+    authors: ["Nong Minh Hieu", "Antoine Ledent"],
+    venue: "NeurIPS",
+    venueFull: "Conference on Neural Information Processing Systems (NeurIPS - To Appear)",
+    year: 2026,
+    type: "conference",
+    selected: true,
+    note: "",
+    abstract: "",
+    bibtex: "",
+    links: [
+      { label: "arXiv",   url: "https://arxiv.org/abs/2611.19382v1" },
+    ]
+  },
   {
     title: "A Refined Generalization Analysis for Extreme Multi-class Supervised Contrastive Representation Learning",
     authors: ["Nong Minh Hieu", "Antoine Ledent"],
@@ -29,11 +44,11 @@ window.PUBLICATIONS = [
     type: "conference",
     selected: true,
     note: "",
-    abstract: "Contrastive Representation Learning (CRL) has achieved strong empirical success in multiple machine learning disciplines, yet its theoretical sample complexity remains poorly understood. Existing analyses usually assume that input tuples are identically and independently distributed, an assumption violated in most practical settings where contrastive tuples are constructed from a finite pool of labeled data, inducing dependencies among tuples. While one recent work analyzed this learning setting using U-Statistics to estimate the population risk, the techniques used therein require the risk of each class to concentrate uniformly, making excess risk bounds scale in the order of &rho;<sub>min</sub><sup>&minus;1/2</sup> where &rho;<sub>min</sub> denotes the probability of the rarest class. Such a dependency can be overly pessimistic in the extreme multiclass settings where there are many tail classes which contribute minimally to the overall population risk. Our contributions are two-fold. Firstly, we improve upon the previous work and prove a bound with a sample complexity of the same order as the number of classes R, regardless of the distribution over classes. Furthermore, we formulate a different estimator (of a debiased surrogate of the collision-free risk) that captures the concentration of the risk across classes, enabling sharper bounds in extreme multi-class learning scenarios, especially where class distributions are long-tailed. Under mild assumptions on the class distributions, the resulting sample complexity is O(k) where k is the number of samples per tuple.",
-    bibtex: "@inproceedings{hieu2026refined,\n  title     = {A Refined Generalization Analysis for Extreme Multi-class Supervised Contrastive Representation Learning},\n  author    = {Hieu, Nong Minh and Ledent, Antoine},\n  booktitle = {Proceedings of the 43rd International Conference on Machine Learning},\n  series    = {Proceedings of Machine Learning Research},\n  volume    = {306},\n  year      = {2026}\n}",
+    abstract: "",
+    bibtex: "",
     links: [
       { label: "arXiv",   url: "https://arxiv.org/abs/2605.07596" },
-      { label: "PMLR",    url: "" },
+      { label: "PMLR",    url: "https://proceedings.mlr.press/v306/hieu26a.html" },
       { label: "Erratum", url: "media/papers/erratum_icml2026.pdf", kind: "erratum" }
     ]
   },
@@ -49,8 +64,23 @@ window.PUBLICATIONS = [
     abstract: "",
     bibtex: "",
     links: [
-      { label: "PMLR",  url: "" },
-      { label: "arXiv", url: "" }
+      { label: "PMLR",  url: "https://proceedings.mlr.press/v267/hieu25a.html" },
+      { label: "arXiv", url: "https://arxiv.org/abs/2505.04937" }
+    ]
+  },
+   {
+    title: "Decoupling Epistemic and Aleatoric Uncertainties with Possibility Theory",
+    authors: ["Nong Minh Hieu", "Jeremie Houssineau", "Neil K. Chada", "Emmanuel Delande" ],
+    venue: "AISTATS",
+    venueFull: "International Conference on Artificial Intelligence and Statistics (AISTATS), PMLR 258",
+    year: 2025,
+    type: "conference",
+    selected: false,
+    note: "",
+    abstract: "",
+    bibtex: "",
+    links: [
+      { label: "PMLR",  url: "https://proceedings.mlr.press/v258/hieu25a.html" }
     ]
   },
   {
@@ -65,8 +95,8 @@ window.PUBLICATIONS = [
     abstract: "",
     bibtex: "",
     links: [
-      { label: "Paper", url: "" },
-      { label: "arXiv", url: "" }
+      { label: "AAAI", url: "https://ojs.aaai.org/index.php/AAAI/article/view/33889" },
+      { label: "arXiv", url: "https://arxiv.org/abs/2412.12014" }
     ]
   }
 ];
