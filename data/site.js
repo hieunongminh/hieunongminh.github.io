@@ -17,7 +17,7 @@ window.SITE = {
     { label: "Publications", href: "publications.html" },
     { label: "Teaching",     href: "teaching.html" },
     // { label: "Blog",      href: "blog.html" },   // remove the // at the start to show the blog
-    { label: "CV",           href: "media/cv/CV_Nong_Minh_Hieu.pdf", newTab: true }
+    { label: "CV",           href: "media/cv/NongMinhHieu___CV.pdf", newTab: true }
   ],
 
   // Shown at the bottom of every page.
