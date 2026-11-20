@@ -81,8 +81,8 @@ window.PUBLICATIONS = [
     abstract: "",
     bibtex: "",
     links: [
-      { label: "PMLR",  url: "https://proceedings.mlr.press/v267/hieu25a.html" },
-      { label: "arXiv", url: "https://arxiv.org/abs/2505.04937" }
+      { label: "arXiv", url: "https://arxiv.org/abs/2505.04937" },
+      { label: "PMLR",  url: "https://proceedings.mlr.press/v267/hieu25a.html" }
     ]
   },
    {
@@ -112,8 +112,8 @@ window.PUBLICATIONS = [
     abstract: "",
     bibtex: "",
     links: [
-      { label: "AAAI", url: "https://ojs.aaai.org/index.php/AAAI/article/view/33889" },
-      { label: "arXiv", url: "https://arxiv.org/abs/2412.12014" }
+      { label: "arXiv", url: "https://arxiv.org/abs/2412.12014" },
+      { label: "AAAI", url: "https://ojs.aaai.org/index.php/AAAI/article/view/33889" }
     ]
   }
 ];
