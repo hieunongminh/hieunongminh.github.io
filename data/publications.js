@@ -21,6 +21,21 @@
 
 window.PUBLICATIONS = [
    {
+    title: "On Finite-sample Concentration of Median of Incomplete U-Statistics",
+    authors: ["Nong Minh Hieu", "Antoine Ledent"],
+    venue: "",
+    venueFull: "",
+    year: 2027,
+    type: "preprint",
+    selected: true,
+    note: "",
+    abstract: "",
+    bibtex: "",
+    links: [
+      { label: "arXiv",   url: "https://arxiv.org/abs/2606.00661" },
+    ]
+  },
+   {
     title: "Generalization Bounds for Neural Networks with Sparse Connectivity",
     authors: ["Nong Minh Hieu", "Antoine Ledent"],
     venue: "NeurIPS",
