@@ -52,6 +52,23 @@ window.PUBLICATIONS = [
       { label: "Erratum", url: "media/papers/erratum_icml2026.pdf", kind: "erratum" }
     ]
   },
+   {
+    title: "Generalization Bounds for Semi-supervised Matrix Completion with Distributional Side Information",
+    authors: ["Antoine Ledent", "Mun Chong Soo", "Nong Minh Hieu"],
+    venue: "AAAI",
+    venueFull: "AAAI Conference on Artificial Intelligence (AAAI)",
+    year: 2026,
+    type: "conference",
+    selected: false,
+    note: "Oral Presentation",
+    abstract: "",
+    bibtex: "",
+    links: [
+      { label: "arXiv",   url: "https://arxiv.org/abs/2511.13049" },
+      { label: "AAAI",    url: "https://ojs.aaai.org/index.php/AAAI/article/view/39439/43400" },
+      { label: "Presentation",    url: "https://underline.io/lecture/142105-generalization-bounds-for-semi-supervised-matrix-completion-with-distributional-side-information" },
+    ]
+  },
   {
     title: "Generalization Analysis for Supervised Contrastive Representation Learning under Non-IID Settings",
     authors: ["Nong Minh Hieu", "Antoine Ledent"],
@@ -87,7 +104,7 @@ window.PUBLICATIONS = [
     title: "Generalization Analysis for Deep Contrastive Representation Learning",
     authors: ["Nong Minh Hieu", "Antoine Ledent", "Y. Lei", "C. Y. Ku"],  // write out first names if you like
     venue: "AAAI",
-    venueFull: "AAAI Conference on Artificial Intelligence",
+    venueFull: "AAAI Conference on Artificial Intelligence (AAAI)",
     year: 2024,
     type: "conference",
     selected: false,
