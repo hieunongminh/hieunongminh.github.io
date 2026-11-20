@@ -18,15 +18,14 @@ window.PROFILE = {
 
   // Profile links. Leave a url empty ("") to hide that link.
   links: [
-    { label: "Google Scholar", url: "" },
-    { label: "GitHub",         url: "" },
-    { label: "ORCID",          url: "" }
+    { label: "Google Scholar", url: "https://scholar.google.com/citations?user=6ZtPiA8AAAAJ&hl=en" },
+    { label: "Linkedin",       url: "https://www.linkedin.com/in/nong-minh-hieu-194318171/" }
   ],
 
   // About: one or more paragraphs.
   about: [
-    "I study the statistical learning theory of representation learning. My current work is on generalization bounds for supervised contrastive learning when the training tuples are built from one finite labelled dataset, so the tuples share data points and are not independent.",
-    "Additionally, I also work on concentration inequalities for robust estimation for U-Statistics."
+    "I study the statistical learning theory of representation learning. My current work is on generalization bounds for supervised contrastive learning when the training tuples are built from one finite labelled dataset.",
+    "I am also interested in efficient robustification methods (such as huberization, median-of-means, etc) for estimation of multi-way kernels under heavy-tailed data assumptions."
   ],
 
   // Education, newest first.
