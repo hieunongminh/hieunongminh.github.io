@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications | Nong Minh Hieu</title>
+  <meta name="description" content="Nong Minh Hieu, PhD student in Computer Science at Singapore Management University, working on learning theory for contrastive representation learning.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      if (t !== "light" && t !== "dark") {
+        t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      }
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="publications">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header id="site-header"></header>
+
+  <main id="main">
+    <div class="wrap">
+      <header class="page-head">
+        <h1>Publications</h1>
+        <p>Papers grouped by year, newest first.</p>
+      </header>
+
+      <div class="toolbar">
+        <label for="pub-filter">Filter</label>
+        <input id="pub-filter" type="search" placeholder="Title, author or venue" autocomplete="off">
+        <span class="count" id="pub-count" aria-live="polite"></span>
+      </div>
+
+      <div id="pub-list"></div>
+      <p class="empty" id="pub-empty" hidden><span></span> <button type="button">Clear the filter</button></p>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <noscript><p style="text-align:center;font-family:sans-serif">This site needs JavaScript to show its content.</p></noscript>
+
+  <!-- Your content lives in these files. Edit them, not this page. -->
+  <script src="data/site.js"></script>
+  <script src="data/profile.js"></script>
+  <script src="data/publications.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
