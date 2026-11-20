@@ -24,7 +24,7 @@ window.PUBLICATIONS = [
     title: "On Finite-sample Concentration of Median of Incomplete U-Statistics",
     authors: ["Nong Minh Hieu", "Antoine Ledent"],
     venue: "",
-    venueFull: "",
+    venueFull: "Preprint",
     year: 2027,
     type: "preprint",
     selected: true,
