@@ -14,7 +14,7 @@ window.PROFILE = {
   email: "mh.nong.2024@phdcs.smu.edu.sg",
 
   // Put your CV in media/cv/ with exactly this file name.
-  cv: "media/cv/CV_Nong_Minh_Hieu.pdf",
+  cv: "media/cv/NongMinhHieu___CV.pdf",
 
   // Profile links. Leave a url empty ("") to hide that link.
   links: [
