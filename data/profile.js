@@ -31,12 +31,12 @@ window.PROFILE = {
   // Education, newest first.
   education: [
     {
-      years: "2024 to present",
+      years: "2025 to present",
       degree: "Doctor of Philosophy (PhD)",
       place: "School of Computing and Information Systems (SCIS), Singapore Management University"
     },
     {
-      years: "2023 to 2024",
+      years: "2023 to 2025",
       degree: "Masters of Science (Msc)",
       place: "School of Physical and Mathematical Sciences (SPMS), Nanyang Technological University"
     }
